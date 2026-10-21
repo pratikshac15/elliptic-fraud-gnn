@@ -32,7 +32,7 @@ Test set: time steps 35–49 (16,670 labeled transactions, 6.5% illicit). Thresh
 - **Concept drift dominates:** the best model's illicit F1 falls from **0.85 (steps 35–42) to 0.03 (steps 43–49)** after the dark-market shutdown. Every model fails on the new fraud patterns, which motivates drift monitoring and frequent retraining.
 - **Thresholds don't transfer over time:** a threshold tuned for 90% precision on validation reached only 54–62% precision on test.
 
-![summary](results/summary.png)
+![summary](results/elliptic_fraud_gnn_summary.png)
 
 ## Run it
 Open in Colab → Run all (about 10 minutes on a T4 GPU; also runs on CPU). The data downloads automatically through PyTorch Geometric.

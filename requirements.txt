@@ -1,0 +1,7 @@
+torch
+torch_geometric
+xgboost>=2.0
+scikit-learn
+pandas
+numpy
+matplotlib
